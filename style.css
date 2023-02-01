@@ -1,0 +1,14 @@
+/* priority: elementSelector > Class > id */
+
+p{
+    color: red;
+}
+
+.blue-text{
+    color: blueviolet;
+}
+
+#p2{
+    color: green;
+}
+
