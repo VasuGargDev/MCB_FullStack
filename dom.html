@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="div">
+        KG
+    </div>
+    <div class="div1">
+        Coding
+    </div>
+    <div class="div1">
+        !
+    </div>
+</body>
+<script>
+    // document.getElementById("div1"); this creates an object of our div and gives it to us which has to be stored in a var
+    var x = document.getElementById("div");
+    console.log(x);
+
+    //document.getElementById("div1").innerHTML = "<h1>KG</h1>"; //this will override our previous one
+
+    var y = document.getElementsByClassName("div1");
+    console.log(y);
+
+    document.getElementsByClassName("div1")[1].innerHTML= "<h5>Subscribe</h5>";  //replaced second div1 (replaced div containing ! with subscribe)
+
+</script>
+</html>
