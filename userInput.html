@@ -11,11 +11,18 @@
     <br>
     <button onclick="fun()">Name bata</button>
     
+    <br>
+    <p id="op" style="margin: 60px auto; width:500px;"></p>
 </body>
 <Script>
     function fun(){
         var a = prompt("Enter your name","");
         document.getElementById("res").innerHTML = a;
     }
+
+    var x = 10;
+    var y = 20;
+    var z= x + y;
+    document.getElementById("op").innerHTML = z;
 </Script>
 </html>
