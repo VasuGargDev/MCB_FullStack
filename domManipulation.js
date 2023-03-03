@@ -34,9 +34,19 @@ tn[0].replaceChild(cp2,cp1);
 s1 = document.querySelector('.container');
 console.log(s1);
 
+console.log("hota kyu nahi");
 
 
+// events in js
+function clicked() {
+    document.querySelectorAll(".container")[1].innerHTML = "This is my project!"
+    console.log("click hua");
+}
 
+window.onload = function()  {
+    console.log("My project is the besst!");
+}
 
-
-
+click.addEventListener("click", function(){
+    console.log("Chu matt click matt kr");
+})
