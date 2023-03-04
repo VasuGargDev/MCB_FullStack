@@ -2,6 +2,8 @@
 
 //single quotes '' don't work with JSON only double quotes ""
 
+/* 
+
 //set local storage (key value pair)    
 localStorage.setItem("name","Vasu")
 
@@ -16,6 +18,8 @@ localStorage.getItem("name")
 
 //removing local storage value using key
 localStorage.removeItem("name")
+
+*/
 
 
 
