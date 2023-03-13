@@ -1,0 +1,27 @@
+{
+  "name": "mcb_fullstack",
+  "version": "1.0.0",
+  "description": "hello nodejs package manager npm",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VasuGargDev/MCB_FullStack.git"
+  },
+  "keywords": [
+    "hello",
+    "node"
+  ],
+  "author": "Vasu Garg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VasuGargDev/MCB_FullStack/issues"
+  },
+  "homepage": "https://github.com/VasuGargDev/MCB_FullStack#readme",
+  "dependencies": {
+    "color": "^4.2.3",
+    "simple-node-logger": "^21.8.12"
+  }
+}
