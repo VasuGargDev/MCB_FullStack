@@ -8,3 +8,6 @@ fun = (req,res) =>  {
 };
 
 http.createServer(fun).listen(8888); 
+
+// run ctrl+alt+N
+//stop running code ctrl+alt+M
